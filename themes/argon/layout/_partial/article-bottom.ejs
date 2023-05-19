@@ -52,8 +52,8 @@
 </div>
 <script type="text/javascript">
 	socialShare("#share", {
-	    title : '<%= post.title %>',
-	    description : '<%= getexcerpt(post.content, 50, false) %>',
+	    title : `<%= post.title %>`,
+	    description : `<%= getexcerpt(post.content, 50, false) %>`,
 	    wechatQrcodeTitle : "分享到微信",
 	    wechatQrcodeHelper : '微信扫描二维码',
 	    source : '<%= full_url_for(post.path) %>'

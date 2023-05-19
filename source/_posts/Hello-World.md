@@ -6,6 +6,6 @@ tags:
 
 是的，我又挖新坑了...
 
-用了[Hexo](https://hexo.io/zh-cn/)搭配[argon](https://github.com/solstice23/hexo-theme-argon)主题
+框架用的[Hexo](https://hexo.io/zh-cn/)，主题[fluid](https://github.com/fluid-dev/hexo-theme-fluid)
 
 总之，以后就在这里记录我日常的工作和生活吧...
