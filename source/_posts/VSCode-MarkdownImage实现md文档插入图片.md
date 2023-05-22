@@ -16,4 +16,4 @@ tags:
 复制图片后，在md文档中按下快捷键`Alt + Shift + V`，即可自动保存图片到指定目录
 
 测试一下～
-![picture 3](../static/upload/a14600c2d161efcef736b9e9fed86c8bb59751037fa97c79ec91367ebb70bad7.png)  
+![picture](../static/upload/a14600c2d161efcef736b9e9fed86c8bb59751037fa97c79ec91367ebb70bad7.png)  
