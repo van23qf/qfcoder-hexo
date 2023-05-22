@@ -1,7 +1,8 @@
 ---
 title: 最新的Let's Encrypt免费https证书配置
 date: 2023-05-19 13:54:57
-tags:
+tags: ["https", "Let's Encrypt"]
+categories: ["涨姿势"]
 ---
 
 本次流程基于Ubuntu，首先安装certbot

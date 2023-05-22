@@ -37,7 +37,7 @@ force_https: true
 code:
   # 是否开启复制代码的按钮
   # Enable copy code button
-  copy_btn: false
+  copy_btn: true
 
   # 代码语言
   # Code language
@@ -725,11 +725,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: changyan
 
 
 #---------------------------
@@ -826,8 +826,8 @@ waline:
 # Based on third-party service, insufficient support for regions outside China
 # http://changyan.kuaizhan.com
 changyan:
-  appid: ''
-  appkey: ''
+  appid: 'cywGIM5q2'
+  appkey: 'prod_1c1764a18b0b7e5854fcfabc60519a17'
 
 # 来必力 Livere
 # 基于第三方的服务
