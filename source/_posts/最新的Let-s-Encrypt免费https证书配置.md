@@ -5,6 +5,8 @@ tags: ["https", "Let's Encrypt"]
 categories: ["涨姿势"]
 ---
 
+`Let's Encrypt`是一个数字证书认证机构，为网站提供免费的TLS证书。
+<!-- more -->
 本次流程基于Ubuntu，首先安装certbot
 ```shell
 apt install certbot
