@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://hexo.local
+url: https://www.qfcoder.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -40,18 +40,18 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -98,22 +98,23 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## default: landscape
-theme: argon
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: sftp
-  host: xxx.xxx.xxx.xxx
+  host: xxxx.xxxx.xxxx.xxxx
   user: root
   pass: xxxx
-  remotePath: /foo/bar/public/
-  port: 22
+  remotePath: /path/to/public/
+  port: xxxx
 
 search:
   path: search.xml
   field: post
   content: true
+  format: html
 
 tag_generator:
   enable_index_page: false
@@ -131,3 +132,13 @@ feed:
   icon: /static/img/favicon.ico
   autodiscovery: true
   template:
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: false
+  total_time: false
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
