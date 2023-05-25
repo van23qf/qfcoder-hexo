@@ -760,10 +760,10 @@ waline:
   libUrl: null
   search: true
   emoji: [
-    '//unpkg.com/@waline/emojis@1.1.0/weibo',
-    '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-    '//unpkg.com/@waline/emojis@1.0.1/qq',
-    '//unpkg.com/@waline/emojis@1.0.1/tieba',
+    '//npm.onmicrosoft.cn/@waline/emojis@1.1.0/weibo',
+    '//npm.onmicrosoft.cn/@waline/emojis@1.1.0/bilibili',
+    '//npm.onmicrosoft.cn/@waline/emojis@1.0.1/qq',
+    '//npm.onmicrosoft.cn/@waline/emojis@1.0.1/tieba',
   ]
 
 
