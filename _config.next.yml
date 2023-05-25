@@ -384,7 +384,7 @@ back2top:
 reading_progress:
   enable: true
   # Available values: left | right
-  start_at: left
+  start_at: right
   # Available values: top | bottom
   position: top
   reversed: true
@@ -631,7 +631,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: false
+  enable: true
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue
@@ -850,7 +850,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
