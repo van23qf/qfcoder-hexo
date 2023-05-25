@@ -743,7 +743,7 @@ valine:
   enable: true
 waline:
   enable: true
-  serverURL: https://qfcoder-comments-nqekc6muq-van23qf.vercel.app/
+  serverURL: https://vercel.qfcoder.com/
   locale:
     placeholder: 说点什么...
   avatar: mp
