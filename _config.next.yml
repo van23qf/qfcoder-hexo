@@ -737,13 +737,15 @@ utterances:
 isso: # <data_isso>
 
 
-
+# waline
+# For more information: https://waline.js.org/
 valine:
   enable: true
 waline:
   enable: true
   serverURL: https://qfcoder-comments-nqekc6muq-van23qf.vercel.app/
-  placeholder: (说点什么...)
+  locale:
+    placeholder: 说点什么...
   avatar: mp
   meta:
     - nick
@@ -756,6 +758,13 @@ waline:
   requiredFields:
     - nick
   libUrl: null
+  search: true
+  emoji: [
+    '//unpkg.com/@waline/emojis@1.1.0/weibo',
+    '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+    '//unpkg.com/@waline/emojis@1.0.1/qq',
+    '//unpkg.com/@waline/emojis@1.0.1/tieba',
+  ]
 
 
 # ---------------------------------------------------------------
