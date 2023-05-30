@@ -1,8 +1,8 @@
 ---
 title: 最新的Let's Encrypt免费https证书配置
 date: 2023-05-19 13:54:57
-tags: ["https", "Let's Encrypt"]
-categories: ["涨姿势"]
+tags: ["https", "Let's Encrypt", "运维"]
+categories: ["技术"]
 ---
 
 `Let's Encrypt`是一个数字证书认证机构，为网站提供免费的TLS证书。

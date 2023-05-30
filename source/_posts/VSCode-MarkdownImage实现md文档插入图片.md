@@ -2,7 +2,7 @@
 title: VSCode+MarkdownImage实现md文档插入图片
 date: 2023-05-22 14:41:27
 tags: ["VSCode"]
-categories: ["涨姿势"]
+categories: ["技术"]
 ---
 
 写博客时遇到了上传图片的需求，于是找到了`markdown-image`这个VSCode插件，可以直接把剪切板图片存入本地指定目录(也可以根据自己需求上传到其他云服务器，详情可见插件文档说明)，并自动生成md引用图片的语法。
