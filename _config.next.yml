@@ -379,7 +379,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -527,7 +527,7 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme:
     light: default
@@ -648,7 +648,6 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -779,10 +778,13 @@ waline:
 
 # AddToAny Share. See: https://www.addtoany.com
 addtoany:
-  enable: false
+  enable: true
   buttons:
-    - facebook
     - twitter
+    - facebook
+    - line
+    - wechat
+    - sina_weibo
 
 
 # ---------------------------------------------------------------
