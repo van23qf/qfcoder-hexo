@@ -29,7 +29,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/next_styles.styl
 
 
 # ---------------------------------------------------------------
@@ -67,8 +67,8 @@ creative_commons:
   license: by-nc-sa
   # Available values: big | small
   size: small
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
   language:
@@ -252,6 +252,7 @@ post_meta:
     enable: false
     another_day: true
   categories: true
+  comments: false
 
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
@@ -739,8 +740,6 @@ isso: # <data_isso>
 
 # waline
 # For more information: https://waline.js.org/
-valine:
-  enable: true
 waline:
   enable: true
   serverURL: https://vercel.qfcoder.com/
@@ -753,12 +752,16 @@ waline:
     - link
   pageSize: 10
   lang: zh-cn
-  visitor: true
-  comment_count: false
+  #visitor: true
+  highlighter: true
   requiredFields:
     - nick
   libUrl: null
+  comment: false
+  pageview: false
+  commentCount: false
   search: true
+  dark: 'auto'
   emoji: [
     '//npm.onmicrosoft.cn/@waline/emojis@1.1.0/weibo',
     '//npm.onmicrosoft.cn/@waline/emojis@1.1.0/bilibili',
