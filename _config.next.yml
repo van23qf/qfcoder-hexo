@@ -363,8 +363,8 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
-    dark: monokai
+    light: xcode
+    dark: xcode
   prism:
     light: prism
     dark: prism-dark
